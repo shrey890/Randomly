@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Random Number Generator</h2>
+        <form id="player-form">
+            <div class="form-group">
+                <label for="num-players">Number of Players:</label>
+                <input type="number" id="num-players" min="1" required>
+            </div>
+            <button type="submit">Generate Number</button>
+            <button type="button" id="clear-button">Clear</button>
+
+        </form>
+        <div class="generated-numbers" id="result"></div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2023 Shrey</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
